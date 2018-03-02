@@ -78,6 +78,7 @@ function printQuote (message) {
   printmessage += "</p>";
 // prints printmessage variable to the 'quote-box' element
   document.getElementById('quote-box').innerHTML = printmessage;
+// calls the function to create a random background color, and set.
   var getRandBackColor = RandBackColor();
   document.body.style.backgroundColor = getRandBackColor;
 }
